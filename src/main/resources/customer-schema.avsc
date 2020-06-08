@@ -1,0 +1,18 @@
+{
+    "type": "record",
+    "name": "Customer",
+    "namespace": "com.github.fabriciolfj.avroexample.domain.schema",
+    "fields": [
+    {
+        "name": "id",
+        "type": "long"
+    },
+    {
+        "name": "firstName",
+        "type": "string"
+    },
+    {
+        "name": "lastName",
+        "type": "string"
+    }]
+}
